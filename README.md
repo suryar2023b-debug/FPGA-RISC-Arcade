@@ -1,6 +1,6 @@
 # RISC Arcade: Pong & Breakout on an FPGA
 
-A Verilog project for the Terasic DE10 board that combines a small custom 8-bit RISC CPU with a hardware game engine and a VGA renderer. It plays **Pong** (2 players) and **Breakout** (1 player) on a 640x480 VGA display, with scores shown on the seven-segment displays.
+A Verilog project for the DE10 board that combines a small custom 8-bit RISC CPU with a hardware game engine and a VGA renderer. It plays **Pong** (2 players) and **Breakout** (1 player) on a 640x480 VGA display, with scores shown on the seven-segment displays.
 
 
 ## Features
@@ -16,8 +16,8 @@ A Verilog project for the Terasic DE10 board that combines a small custom 8-bit 
 
 | Item | Details |
 |------|---------|
-| Board | Terasic DE10 (**fill in exact model, e.g. DE10-Standard**) |
-| Toolchain | Intel Quartus Prime (**fill in version**) |
+| Board | DE10-Standard |
+| Toolchain | Intel Quartus Prime  |
 | Top-level entity | `RISC_Arcade` (`src/RISC_Arcade.v`) |
 | Clock | `CLOCK_50` (50 MHz) |
 | Display | VGA monitor |
