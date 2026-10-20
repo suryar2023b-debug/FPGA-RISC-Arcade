@@ -2,7 +2,6 @@
 
 A Verilog project for the Terasic DE10 board that combines a small custom 8-bit RISC CPU with a hardware game engine and a VGA renderer. It plays **Pong** (2 players) and **Breakout** (1 player) on a 640x480 VGA display, with scores shown on the seven-segment displays.
 
-<!-- Add a photo or GIF of the game running: ![Demo](docs/demo.gif) -->
 
 ## Features
 
@@ -117,12 +116,6 @@ Addresses `0xF0` and above go to the I/O bus instead of data memory.
 ```
 .
 ├── src/        Verilog source files
-├── docs/       Screenshots, diagrams, demo media
 ├── .gitignore
-├── LICENSE
 └── README.md
 ```
-
-## License
-
-Released under the [MIT License](LICENSE).
