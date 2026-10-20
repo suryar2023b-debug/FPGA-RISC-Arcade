@@ -1,0 +1,43 @@
+# ---- Quartus Prime generated files ----
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+qdb/
+tmp-clearbox/
+*.rpt
+*.summary
+*.smsg
+*.qws
+*.sof
+*.pof
+*.jdi
+*.done
+*.pin
+*.sld
+*.cdf
+*.ipinfo
+*.bak
+*.qarlog
+*.rbf
+*.jic
+c5_pin_model_dump.txt
+
+# ---- ModelSim / simulation ----
+work/
+transcript
+vsim.wlf
+*.vcd
+*.wlf
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ---- Archives ----
+*.rar
+*.zip
